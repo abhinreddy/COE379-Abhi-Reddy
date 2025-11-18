@@ -1,0 +1,20 @@
+{
+  "image_size": [
+    150,
+    150
+  ],
+  "channels": 3,
+  "class_names": [
+    "damage",
+    "no_damage"
+  ],
+  "label_encoding": "1 = damage, 0 = no_damage",
+  "best_model": {
+    "name": "alt_lenet5",
+    "val_loss": 0.09265582263469696,
+    "val_acc": 0.9598880410194397,
+    "file": "models/best_model.keras",
+    "test_loss": 0.11491264402866364,
+    "test_acc": 0.9528301954269409
+  }
+}

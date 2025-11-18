@@ -1,0 +1,7 @@
+services:
+  hurricane-damage-api:
+    image: abhireddy23/hurricane-damage-api:v4
+    platform: linux/amd64
+    ports:
+      - "5000:8000"
+
